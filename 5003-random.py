@@ -1,2 +1,3 @@
 import random
-print(random.randint(1,10000))
+print("random number from range is:",end=" ")
+print(random.randrange(1,10000,50))
